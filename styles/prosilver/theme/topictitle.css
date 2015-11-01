@@ -1,0 +1,21 @@
+a.topictitle {
+	background: #FFFFFF;
+	padding: 0 6px;
+    clear: both;
+    border: solid 1px #999999;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+}
+
+a.topictitle:hover {
+	border: 1px solid #eaeaea;
+	-webkit-box-shadow: 0px 0px 2px 2px #104B8B;
+	-moz-box-shadow: 0px 0px 2px 2px #104B8B;
+	box-shadow: 0px 0px 2px 2px #104B8B;
+	-webkit-transition: all 200ms linear;
+	-moz-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+	transition: all 200ms linear;
+	text-decoration: none;
+}

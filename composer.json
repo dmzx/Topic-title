@@ -1,0 +1,32 @@
+{
+	"name": "dmzx/topictitle",
+	"type": "phpbb-extension",
+	"description": "Displays clearly the topic title.",
+	"homepage": "http://www.dmzx-web.net",
+	"version": "1.0.0",
+	"time": "2015-09-08",
+	"keywords": ["phpbb", "extension", "Topic title"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "dmzx",
+			"homepage": "http://www.dmzx-web.net",
+			"email": "info@dmzx-web.net",
+			"role": "Extension Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"extra": {
+		"display-name": "Topic title",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.0,<3.2.*@dev"
+		},
+		"version-check": {
+			"host": "www.dmzx-web.net",
+			"directory": "/versions",
+			"filename": "topictitle_version.json"
+		}
+	}
+}
