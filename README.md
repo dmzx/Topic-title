@@ -1,5 +1,7 @@
 # phpBB Topic title Extension
 
+[![Build Status](https://travis-ci.org/dmzx/Topic-title.svg?branch=master)](https://travis-ci.org/dmzx/Topic-title)
+
 ## Install
 
 1. Download the latest release.
